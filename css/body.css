@@ -1,0 +1,79 @@
+.bod{
+
+  background-color: #333;
+}
+
+.titulo{ text-align:center;
+
+color: black;}
+
+.centrado{ text-align: center;
+} 
+
+.form {
+  margin-right: 60px;
+background-color: white;
+margin-left: 350px;
+margin-top: 50px;
+
+ }
+
+ .caja {width: 70%;
+
+ 	line-height: 25px;
+  margin-top: 20px;}
+
+  .caja2 {
+
+  	margin-top: 20px;
+  	width: 100%;
+  	line-height: 200px;
+  }
+
+
+
+
+  .registros {background-color: grey;}
+
+
+ 
+.formulario
+{
+text-align: center;
+
+ margin-top: 150px;
+ margin-left: 250px;
+    width: 70%;
+    line-height: 70px;
+}
+
+.formularioesp
+{
+border: 1px solid #5c9b9c;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+.formularioesp2
+{
+border: 1px solid black;
+margin-top: 5px;
+margin-bottom: 5px;
+
+
+}
+
+.separador{
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.jaula {
+  margin: 20px;
+  margin-left: 300px;
+}
+
+ 
+
+

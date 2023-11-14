@@ -1,0 +1,334 @@
+
+/*no es verde*/
+.menu-h{ 
+list-style: none;
+justify-content: space-around;
+background-color:#333;
+margin-bottom: 30px;
+}
+
+
+.menu-h > li > a{
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: #222;
+  z-index: 1;
+  opacity: 95%;
+  
+}
+.menu-h li:hover .menu-vertical{
+  display: block;
+  
+  
+}
+/*item del minimenu al hovear*/
+.menu-vertical li{
+margin-left: -30px;
+
+}
+
+
+.menu-vertical li:hover{
+  background-color: #FFCC66;
+transition: .6s;
+  opacity: 10px;
+margin-left: -80px;
+box-shadow: 2px 2px rgba(0,0,0,0.6);
+
+}
+
+/*item del minimenu junto al a*/
+.menu-vertical li a{
+  display: block;
+  color: #FFAF00;
+  text-decoration: none;
+ 
+  padding: 15px 15px 10px 20px;
+}
+
+.menu-vertical li a:hover{
+  color: black;
+}
+
+
+
+
+
+.mp{
+
+float:left; 
+margin-bottom: 20px;
+margin-right: 40px; 
+color:black;
+font-family: Segoe UI;
+font-size: 20px;
+
+}
+
+ .a{
+  outline: none;
+  text-decoration: none;
+   padding: 12px 25px 0;
+         line-height: 3;
+  display: inline-block;
+  color: white;
+  background-color: #eee;
+/*border-bottom:1px solid #eee; */
+font-family: Product Sans;
+
+
+}
+
+
+ .a:link{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  
+  color: #eee;
+
+}
+
+ .a:link, .a:visited, .a:focus {
+  background: #333;
+  color:#eee;
+}
+
+.a:hover {
+  background: #333;
+  color: #FFAF00;
+  transition: 0.4s;
+  display: inline-block;
+}
+
+.a:active {
+  background: #FFDD00;
+  color: black;}
+
+
+/*a2*/
+.btn_aa {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f57b3a;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+  .btn_aa:hover {
+  background: ;
+  color: #ffbe65;
+  transition: .4s;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ .btn_aa:link, .btn_aa:visited, .btn_aa:focus {
+  background: #f57b3a;
+  color:black;
+}
+.btn_aa:active {
+  background: #d74520 ;
+  color: black;}
+
+   .btn_a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffb34b;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+
+.btn_a:link{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #ffbe65 ;
+  color: black;
+
+}
+
+ .btn_a:link, .btn_a:visited, .btn_a:focus {
+  background: #ffb34b;
+  border: 1px solid #ffbe65;
+  color:black;
+}
+
+.btn_a:hover {
+  background: #333;
+  color: #FFAF00;
+  transition: .4s;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #333;
+}
+
+.btn_a:active {
+  background: #FFDD00 ;
+  color: black;}
+  /*boton*/
+
+
+   .boton {
+    display: inline-block;
+    padding:10px 20px;
+    background-color: #FFAF00;
+    color: white;
+    text-align: center;
+   
+    border: none;
+    border-radius:5px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+.boton:link{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  
+  color: black;
+
+}
+
+ .boton:link, .boton:visited, .boton:focus {
+  background: #FFC500;
+  color:black;
+}
+
+.boton:hover {
+  background: #FFAF00;
+  text-decoration: none;
+}
+
+.boton:active {
+  background: #FFDD00;
+  color: black;}
+
+
+.delete {
+display: inline-block;
+    padding:10px 20px;
+    background-color: #dd4444;
+    color: white;
+    text-align: center;
+   
+    border: none;
+    border-radius:5px;
+    
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+.delete:hover {
+  background: #aa1111;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.success{
+  display: inline-block;
+    padding:10px 20px;
+    background-color: #4285f4;
+    color: white;
+    text-align: center;
+   
+    border: none;
+    border-radius:5px;
+    
+    cursor: pointer;
+    text-decoration: none;
+ 
+}
+.success:hover {
+  background: #2063d2;
+  color: white;
+  text-decoration: none;
+transition: .4s;
+}
+
+.info{
+display: inline-block;
+    padding:10px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+   
+    border: none;
+    border-radius:5px;
+    
+    cursor: pointer;
+    text-decoration: none;
+ 
+}
+.info:hover {
+  background: #ffb34b;
+  color: black;
+  text-decoration: none;
+transition: .4s;
+}
+
+.fin{}
+
+.cancel {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #aaa;
+    color: black;
+    
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+.cancel:hover {
+  background: #333;
+  transition: 0.4s;
+  color: #eee;
+  text-decoration: none;
+}
+/*
+.menu{
+
+  background-color: #fccc24;
+             padding: 10px;
+             position: absolute;
+             margin-top: -30px;
+             padding-bottom: 40%;
+             z-index: 0;
+}
+*/
+
+
+
+
+
+
+
+
